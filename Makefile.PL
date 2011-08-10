@@ -12,7 +12,8 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'A simple Catalyst model to interface with L<ElasticSearch>',
   'AUTHOR' => 'Devin Austin <dhoss@cpan.org>',
   'BUILD_REQUIRES' => {
-    'Test::More' => '0.90'
+    'Test::More' => '0.90',
+    'Test::Requires' => '0.06'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.30'
@@ -26,7 +27,7 @@ my %WriteMakefileArgs = (
     'ElasticSearch' => '0',
     'Moose' => '0'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '1.112220',
   'test' => {
     'TESTS' => 't/*.t'
   }
