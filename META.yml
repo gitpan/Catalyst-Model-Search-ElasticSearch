@@ -22,4 +22,4 @@ resources:
   X_mailing_list: http://lists.scsys.co.uk/cgi-bin/mailman/listinfo/catalyst
   homepage: http://code.dhoss.net/catalyst-model-search-elasticsearch
   repository: https://dhoss@github.com/dhoss/catalyst-model-search-elasticsearch.git
-version: 1.112220
+version: 1.112240

@@ -1,6 +1,12 @@
-==============================
-9999-99-99 99:99:99 +0000 HEAD
-==============================
+==================================
+2011-08-12 12:43:15 -0600 1.112240
+==================================
+
+  commit 86347babefc5d25900434a1ee4d97db365c40bbe
+  Author: Devin Austin <devin.austin@gmail.com>
+  Date:   Fri Aug 12 12:43:15 2011 -0600
+  
+    added PkgVersion, updated docs
 
   commit f24469e032b78d92acf89575ec5767bc53f8a712
   Author: Devin Austin <devin.austin@gmail.com>
