@@ -9,27 +9,27 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'A simple Catalyst model to interface with L<ElasticSearch>',
-  'AUTHOR' => 'Devin Austin <dhoss@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.90',
-    'Test::Requires' => '0.06'
+  "ABSTRACT" => "A simple Catalyst model to interface with L<ElasticSearch>",
+  "AUTHOR" => "Devin Austin <dhoss\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => "0.90",
+    "Test::Requires" => "0.06"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Catalyst-Model-Search-ElasticSearch',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Catalyst::Model::Search::ElasticSearch',
-  'PREREQ_PM' => {
-    'Catalyst' => '0',
-    'ElasticSearch' => '0',
-    'Moose' => '0'
+  "DISTNAME" => "Catalyst-Model-Search-ElasticSearch",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Catalyst::Model::Search::ElasticSearch",
+  "PREREQ_PM" => {
+    "Catalyst" => 0,
+    "ElasticSearch" => 0,
+    "Moose" => 0
   },
-  'VERSION' => '1.112240',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.120200",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
