@@ -1,10 +1,16 @@
 ==================================================
-Changes from 2011-01-20 00:00:00 +0000 to present.
+Changes from 2011-05-10 00:00:00 +0000 to present.
 ==================================================
 
 ---------------------------------------------
-version 1.120200 at 2012-01-20 21:31:58 +0000
+version 1.121300 at 2012-05-09 18:26:43 +0000
 ---------------------------------------------
+
+  Change: 01d7e70385b20bb4bd2524c8fe33849f19d37995
+  Author: Devin Austin <devin.austin@gmail.com>
+  Date : 2012-05-09 11:24:02 +0000
+
+    added a few more search methods to delegate to 
 
   Change: 1d122a5772a5c3efbb15c6c86a7c78b4cf23db14
   Author: Devin Austin <dhoss@cpan.org>

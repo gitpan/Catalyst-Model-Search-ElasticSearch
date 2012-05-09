@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     "ElasticSearch" => 0,
     "Moose" => 0
   },
-  "VERSION" => "1.120200",
+  "VERSION" => "1.121300",
   "test" => {
     "TESTS" => "t/*.t"
   }

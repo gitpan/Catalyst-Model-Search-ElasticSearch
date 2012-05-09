@@ -1,6 +1,6 @@
 package Catalyst::Model::Search::ElasticSearch;
 {
-  $Catalyst::Model::Search::ElasticSearch::VERSION = '1.120200';
+  $Catalyst::Model::Search::ElasticSearch::VERSION = '1.121300';
 }
 use Moose;
 use namespace::autoclean;
@@ -123,7 +123,7 @@ has '_es' => (
   handles  => {
     map { $_ => $_ }
       qw(
-      search index get mget create delete reindex
+      search searchqs scrolled_search count index get mget create delete reindex
       bulk bulk_index bulk_create bulk_delete
       )
   },
