@@ -1,10 +1,16 @@
 ==================================================
-Changes from 2011-05-10 00:00:00 +0000 to present.
+Changes from 2013-02-25 00:00:00 +0000 to present.
 ==================================================
 
----------------------------------------------
-version 1.121300 at 2012-05-09 18:26:43 +0000
----------------------------------------------
+-------------------------------------
+version  at 2014-02-25 22:56:13 +0000
+-------------------------------------
+
+  Change: a757c79d65e4d1ce42721251e8a2fdf28e412a87
+  Author: Devin Austin <devin.austin@gmail.com>
+  Date : 2014-02-25 15:56:13 +0000
+
+    ElasticSearch->Elasticsearch, updated deps, updated .gitiginore 
 
   Change: 01d7e70385b20bb4bd2524c8fe33849f19d37995
   Author: Devin Austin <devin.austin@gmail.com>
@@ -18,146 +24,6 @@ version 1.121300 at 2012-05-09 18:26:43 +0000
 
     stop gap to get tests to stop failing 
 
--------------------------------------
-version  at 2011-08-12 18:43:15 +0000
--------------------------------------
-
-  Change: 86347babefc5d25900434a1ee4d97db365c40bbe
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-12 12:43:15 +0000
-
-    added PkgVersion, updated docs 
-
-  Change: f24469e032b78d92acf89575ec5767bc53f8a712
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-10 14:50:28 +0000
-
-
--------------------------------------
-version  at 2011-08-10 20:47:13 +0000
--------------------------------------
-
-  Change: e6a28df7dac817257ba50dacbfea89f4b83bb62b
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-10 14:47:13 +0000
-
-    removed Changes (gets generated), removed git plugin packages, using
-    AutoVersion and ChangelogFromGit plugin now. 
-
-  Change: d08005a47137af9380e31c482f60408ecd2b2d92
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-10 13:06:25 +0000
-
-    added Test::Requires to fix cpantesters errors 
-
-  Change: d7daef5e308ff7a2164d916a769e70b35caa755b
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 13:15:55 +0000
-
-    updated .gitignore 
-
-  Change: c656ab52dbc5ac5ee6a4e544763030bf4fbd743b
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 13:14:34 +0000
-
-    added git plugins and release/upload to cpan stuff 
-
-  Change: 179e6dc8b5f690dd85ff86376ba81ecf5e9f3f41
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 12:44:21 +0000
-
-    added documentation 
-
-  Change: 89f4192151b0e4a2e714ed9a75a12b59a8d61252
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 12:39:07 +0000
-
-    added catalyst app tests, config options pass 
-
-  Change: 3104d47cb8f625309ec6a75e6fecf3f4658d7139
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 11:35:39 +0000
-
-    added test stuff 
-
-  Change: ce3de578ed8881041568728430532dec84fc1d77
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-04 11:10:34 +0000
-
-    tests pass (clintongormley++) 
-
-  Change: b5834704b75697ffd24bd60891b72c11aafb9517
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 22:02:38 +0000
-
-    switched to using ::TestServer 
-
-  Change: fa1b1fc87bdae66162d706864fec951447a53fc9
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 16:49:20 +0000
-
-    added preliminary test 
-
-  Change: c87a4bbe43111c35834a46810118256303451b13
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 16:19:25 +0000
-
-    added gitignore 
-
-  Change: dd05755d6d5df14520284cb4bd216c7bc7a0bcbf
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 15:20:23 +0000
-
-    added additional_opts param 
-
-  Change: 1a925f8b9e0f8b829a68bf52c5ed8264911b2946
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 15:18:44 +0000
-
-    added TODO 
-
-  Change: d1d6e7e114fdccfd4c28df1f278b24ead882697f
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 15:18:05 +0000
-
-    added small test and some code 
-
-  Change: f301fcc2beca8dcb6e8470d025d71d726709fbab
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:37:14 +0000
-
-    added Changes, nextrelease plugin for dzil 
-
-  Change: 9395a1df0400f09fe0d33e57d742289df696dad2
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:35:21 +0000
-
-    updated dist.ini with autoversion plugin 
-
-  Change: 443017aef2f1c02231629675090e8c16b6fac9bb
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:33:29 +0000
-
-    added ChangelogFromGit plugin 
-
-  Change: c58b033e43fef4261b3f6fa20012a98b2220782f
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:31:31 +0000
-
-    updated dist.ini 
-
-  Change: 24d0ada01e6603227bf1efd0c200135e392f25a1
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:18:34 +0000
-
-    initial dist mint 
-
-  Change: ca76655e1c280e62204e8e4eafde7683fd3b9f78
-  Author: Devin Austin <devin.austin@gmail.com>
-  Date : 2011-08-02 14:00:23 +0000
-
-    first commit 
-
-================
-End of releases.
-================
+================================================
+Plus 2 releases after 2013-02-25 00:00:00 +0000.
+================================================

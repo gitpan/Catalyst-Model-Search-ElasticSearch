@@ -1,10 +1,8 @@
 package Catalyst::Model::Search::ElasticSearch;
-{
-  $Catalyst::Model::Search::ElasticSearch::VERSION = '1.121300';
-}
+$Catalyst::Model::Search::ElasticSearch::VERSION = '1.140560';
 use Moose;
 use namespace::autoclean;
-use ElasticSearch;
+use Elasticsearch;
 extends 'Catalyst::Model';
 
 
