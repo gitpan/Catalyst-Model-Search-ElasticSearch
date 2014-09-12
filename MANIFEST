@@ -2,6 +2,7 @@
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -12,3 +13,5 @@ t/basic.t
 t/lib/Test/App.pm
 t/lib/Test/App/Controller/Root.pm
 t/lib/Test/App/Model/Search.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t

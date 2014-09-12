@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Catalyst-Model-Search-ElasticSearch,
-version 1.142520:
+version 1.142550:
 
-  A simple Catalyst model to interface with L<Search::Elasticsearch>
+  A simple Catalyst model to interface with Search::Elasticsearch
 
 This software is copyright (c) 2014 by Devin Austin.
 

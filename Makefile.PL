@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker ;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "A simple Catalyst model to interface with L<Search::Elasticsearch>",
+  "ABSTRACT" => "A simple Catalyst model to interface with Search::Elasticsearch",
   "AUTHOR" => "Devin Austin <dhoss\@cpan.org>, Manfred Stock <mstock\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.90",
     "Test::Requires" => "0.06"
   },
-  "VERSION" => "1.142520",
+  "VERSION" => "1.142550",
   "test" => {
     "TESTS" => "t/*.t"
   }
